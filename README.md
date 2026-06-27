@@ -9,11 +9,16 @@
    123 #젯슨 비밀번호
    123 #젯슨 비밀번호
    source ~/unitree_ros2/install/setup.bash
+   #리얼센스 실행
+   ros2 launch realsense2_camera rs_launch.py enable_gyro:=true enable_accel:=true unite_imu_method:=1 enable_infra1:=true enable_infra2:=true enable_sync:=true 
 
    이후 slam및 nav 명령어
    매핑
    ros2 launch go2_slam_nav mapping.launch.py ​​localize_only:=false restart_map:=true
    매핑이 완료되었다면 맵 저장은 ctrl + c로 해당 명령어 종료시 자동저장
+
+   비주얼 슬램
+   ros2 launch go2_slam_nav mapping_camera.launch.py
    
    만약 터미널창에 노란색글씨의 warning이 뜰 경우
    스크린샷처럼 모드를 mapping으로 바꿔주어야함
