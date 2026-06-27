@@ -1,0 +1,23 @@
+[1.927s] Invoking command in '/home/ros2/ws/src/go2_slam_nav': PYTHONPATH=/home/ros2/ws/build/go2_slam_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ws/install/go2_slam_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/go2_slam_nav build --build-base /home/ros2/ws/build/go2_slam_nav/build install --record /home/ros2/ws/build/go2_slam_nav/install.log --install-scripts $base/lib/go2_slam_nav --single-version-externally-managed install_data
+[2.315s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.316s]   warnings.warn(
+[2.324s] running egg_info
+[2.325s] writing ../../build/go2_slam_nav/go2_slam_nav.egg-info/PKG-INFO
+[2.325s] writing dependency_links to ../../build/go2_slam_nav/go2_slam_nav.egg-info/dependency_links.txt
+[2.326s] writing entry points to ../../build/go2_slam_nav/go2_slam_nav.egg-info/entry_points.txt
+[2.326s] writing requirements to ../../build/go2_slam_nav/go2_slam_nav.egg-info/requires.txt
+[2.326s] writing top-level names to ../../build/go2_slam_nav/go2_slam_nav.egg-info/top_level.txt
+[2.327s] reading manifest file '../../build/go2_slam_nav/go2_slam_nav.egg-info/SOURCES.txt'
+[2.328s] writing manifest file '../../build/go2_slam_nav/go2_slam_nav.egg-info/SOURCES.txt'
+[2.328s] running build
+[2.329s] running build_py
+[2.329s] running install
+[2.329s] running install_lib
+[2.330s] running install_data
+[2.330s] copying launch/rtab_lidar.launch.py -> /home/ros2/ws/install/go2_slam_nav/share/go2_slam_nav/launch
+[2.331s] running install_egg_info
+[2.333s] removing '/home/ros2/ws/install/go2_slam_nav/lib/python3.10/site-packages/go2_slam_nav-0.0.0-py3.10.egg-info' (and everything under it)
+[2.334s] Copying ../../build/go2_slam_nav/go2_slam_nav.egg-info to /home/ros2/ws/install/go2_slam_nav/lib/python3.10/site-packages/go2_slam_nav-0.0.0-py3.10.egg-info
+[2.335s] running install_scripts
+[2.359s] writing list of installed files to '/home/ros2/ws/build/go2_slam_nav/install.log'
+[2.382s] Invoked command in '/home/ros2/ws/src/go2_slam_nav' returned '0': PYTHONPATH=/home/ros2/ws/build/go2_slam_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ws/install/go2_slam_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/go2_slam_nav build --build-base /home/ros2/ws/build/go2_slam_nav/build install --record /home/ros2/ws/build/go2_slam_nav/install.log --install-scripts $base/lib/go2_slam_nav --single-version-externally-managed install_data

@@ -1,0 +1,23 @@
+[0.821s] Invoking command in '/home/ros2/ws/src/go2_cmd_processor': CMAKE_PREFIX_PATH=/home/ros2/ws/install/unitree_api:/home/ros2/ws/install/unitree_ros2_example:/home/ros2/ws/install/unitree_hg:/home/ros2/ws/install/unitree_go:/home/ros2/ws/install/rslidar_sdk:/home/ros2/ws/install/rslidar_msg:/home/ros2/ws/install/hesai_ros_driver LD_LIBRARY_PATH=/home/ros2/ws/install/unitree_api/lib:/home/ros2/ws/install/unitree_hg/lib:/home/ros2/ws/install/unitree_go/lib:/home/ros2/ws/install/rslidar_msg/lib:/home/ros2/ws/install/hesai_ros_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/ros2/ws/build/go2_cmd_processor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ws/install/go2_cmd_processor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/go2_cmd_processor build --build-base /home/ros2/ws/build/go2_cmd_processor/build install --record /home/ros2/ws/build/go2_cmd_processor/install.log --install-scripts $base/lib/go2_cmd_processor --single-version-externally-managed install_data
+[1.086s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.086s]   warnings.warn(
+[1.095s] running egg_info
+[1.095s] writing ../../build/go2_cmd_processor/go2_cmd_processor.egg-info/PKG-INFO
+[1.095s] writing dependency_links to ../../build/go2_cmd_processor/go2_cmd_processor.egg-info/dependency_links.txt
+[1.096s] writing entry points to ../../build/go2_cmd_processor/go2_cmd_processor.egg-info/entry_points.txt
+[1.096s] writing requirements to ../../build/go2_cmd_processor/go2_cmd_processor.egg-info/requires.txt
+[1.096s] writing top-level names to ../../build/go2_cmd_processor/go2_cmd_processor.egg-info/top_level.txt
+[1.097s] reading manifest file '../../build/go2_cmd_processor/go2_cmd_processor.egg-info/SOURCES.txt'
+[1.098s] writing manifest file '../../build/go2_cmd_processor/go2_cmd_processor.egg-info/SOURCES.txt'
+[1.098s] running build
+[1.098s] running build_py
+[1.098s] running install
+[1.099s] running install_lib
+[1.100s] running install_data
+[1.100s] running install_egg_info
+[1.102s] removing '/home/ros2/ws/install/go2_cmd_processor/lib/python3.10/site-packages/go2_cmd_processor-0.0.0-py3.10.egg-info' (and everything under it)
+[1.102s] Copying ../../build/go2_cmd_processor/go2_cmd_processor.egg-info to /home/ros2/ws/install/go2_cmd_processor/lib/python3.10/site-packages/go2_cmd_processor-0.0.0-py3.10.egg-info
+[1.103s] running install_scripts
+[1.124s] Installing sport_ctrl script to /home/ros2/ws/install/go2_cmd_processor/lib/go2_cmd_processor
+[1.124s] writing list of installed files to '/home/ros2/ws/build/go2_cmd_processor/install.log'
+[1.146s] Invoked command in '/home/ros2/ws/src/go2_cmd_processor' returned '0': CMAKE_PREFIX_PATH=/home/ros2/ws/install/unitree_api:/home/ros2/ws/install/unitree_ros2_example:/home/ros2/ws/install/unitree_hg:/home/ros2/ws/install/unitree_go:/home/ros2/ws/install/rslidar_sdk:/home/ros2/ws/install/rslidar_msg:/home/ros2/ws/install/hesai_ros_driver LD_LIBRARY_PATH=/home/ros2/ws/install/unitree_api/lib:/home/ros2/ws/install/unitree_hg/lib:/home/ros2/ws/install/unitree_go/lib:/home/ros2/ws/install/rslidar_msg/lib:/home/ros2/ws/install/hesai_ros_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/ros2/ws/build/go2_cmd_processor/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ws/install/go2_cmd_processor/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/go2_cmd_processor build --build-base /home/ros2/ws/build/go2_cmd_processor/build install --record /home/ros2/ws/build/go2_cmd_processor/install.log --install-scripts $base/lib/go2_cmd_processor --single-version-externally-managed install_data

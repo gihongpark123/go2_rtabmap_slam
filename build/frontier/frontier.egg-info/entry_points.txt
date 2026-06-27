@@ -1,0 +1,6 @@
+[console_scripts]
+explore = frontier.frontier:main
+explore_detect = frontier.frontier_detection:main
+explore_update = frontier.frontier_update1:main
+explore_update2 = frontier.frontier_update2:main
+

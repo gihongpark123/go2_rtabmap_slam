@@ -1,0 +1,255 @@
+[0.755s] Invoking command in '/home/ros2/ws/build/hesai_ros_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ws/install/go2_cmd_processor:/home/ros2/ws/install/image_processing:/home/ros2/ws/install/go2_slam_nav:/home/ros2/ws/install/frontier:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ws/build/hesai_ros_driver -- -j8 -l8
+[0.794s] [  1%] Built target hesai_ros_driver__rs
+[0.795s] [  2%] Built target hesai_ros_driver__cpp
+[0.796s] [  4%] Built target log_lib
+[0.799s] [ 12%] Built target hesai_ros_driver__rosidl_generator_c
+[0.807s] [ 12%] Built target ament_cmake_python_copy_hesai_ros_driver
+[0.822s] [ 15%] Built target platutils_lib
+[0.828s] [ 23%] Built target hesai_ros_driver__rosidl_typesupport_fastrtps_cpp
+[0.830s] [ 31%] Built target hesai_ros_driver__rosidl_typesupport_cpp
+[0.830s] [ 46%] Built target hesai_ros_driver__rosidl_typesupport_introspection_c
+[0.830s] [ 47%] Built target hesai_ros_driver__rosidl_typesupport_fastrtps_c
+[0.832s] [ 55%] Built target hesai_ros_driver__rosidl_typesupport_introspection_cpp
+[0.836s] [ 62%] Built target hesai_ros_driver__rosidl_typesupport_c
+[0.849s] [ 70%] Built target source_lib
+[0.853s] [ 79%] Built target ptcClient_lib
+[0.860s] [ 79%] Built target hesai_ros_driver
+[0.867s] [ 82%] Built target serialClient_lib
+[0.875s] [ 83%] Built target hesai_ros_driver__py
+[0.892s] [ 89%] Built target hesai_ros_driver__rosidl_generator_py
+[0.896s] [ 93%] Built target hesai_ros_driver_node
+[0.912s] [ 95%] Built target hesai_ros_driver__rosidl_typesupport_introspection_c__pyext
+[0.912s] [ 97%] Built target hesai_ros_driver__rosidl_typesupport_fastrtps_c__pyext
+[0.916s] [100%] Built target hesai_ros_driver__rosidl_typesupport_c__pyext
+[1.038s] running egg_info
+[1.039s] writing hesai_ros_driver.egg-info/PKG-INFO
+[1.039s] writing dependency_links to hesai_ros_driver.egg-info/dependency_links.txt
+[1.039s] writing top-level names to hesai_ros_driver.egg-info/top_level.txt
+[1.042s] reading manifest file 'hesai_ros_driver.egg-info/SOURCES.txt'
+[1.042s] writing manifest file 'hesai_ros_driver.egg-info/SOURCES.txt'
+[1.179s] [100%] Built target ament_cmake_python_build_hesai_ros_driver_egg
+[1.180s] Invoked command in '/home/ros2/ws/build/hesai_ros_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ws/install/go2_cmd_processor:/home/ros2/ws/install/image_processing:/home/ros2/ws/install/go2_slam_nav:/home/ros2/ws/install/frontier:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ws/build/hesai_ros_driver -- -j8 -l8
+[1.181s] Invoking command in '/home/ros2/ws/build/hesai_ros_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ws/install/go2_cmd_processor:/home/ros2/ws/install/image_processing:/home/ros2/ws/install/go2_slam_nav:/home/ros2/ws/install/frontier:/opt/ros/humble /usr/bin/cmake --install /home/ros2/ws/build/hesai_ros_driver
+[1.197s] -- Install configuration: "Release"
+[1.197s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/ament_index/resource_index/rosidl_interfaces/hesai_ros_driver
+[1.197s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver
+[1.197s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg
+[1.197s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/ptp.h
+[1.197s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail
+[1.197s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/firetime__functions.h
+[1.197s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/loss_packet__functions.h
+[1.197s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/udp_packet__functions.c
+[1.198s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/firetime__struct.h
+[1.198s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/loss_packet__struct.h
+[1.198s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/ptp__type_support.h
+[1.198s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/ptp__functions.h
+[1.198s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/loss_packet__type_support.h
+[1.198s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/ptp__struct.h
+[1.198s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/loss_packet__functions.c
+[1.198s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/udp_frame__type_support.h
+[1.198s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/udp_packet__functions.h
+[1.198s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/firetime__type_support.h
+[1.199s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/udp_frame__struct.h
+[1.199s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/udp_packet__struct.h
+[1.199s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/udp_frame__functions.c
+[1.199s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/udp_frame__functions.h
+[1.199s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/ptp__functions.c
+[1.199s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/udp_packet__type_support.h
+[1.199s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/firetime__functions.c
+[1.199s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/firetime.h
+[1.200s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/udp_frame.h
+[1.200s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/loss_packet.h
+[1.200s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/rosidl_generator_c__visibility_control.h
+[1.200s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/udp_packet.h
+[1.201s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/environment/library_path.sh
+[1.201s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/environment/library_path.dsv
+[1.201s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/lib/libhesai_ros_driver__rosidl_generator_c.so
+[1.203s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver
+[1.203s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg
+[1.203s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail
+[1.203s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/udp_frame__rosidl_typesupport_fastrtps_c.h
+[1.203s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/firetime__rosidl_typesupport_fastrtps_c.h
+[1.203s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/loss_packet__rosidl_typesupport_fastrtps_c.h
+[1.203s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/udp_packet__rosidl_typesupport_fastrtps_c.h
+[1.203s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/ptp__rosidl_typesupport_fastrtps_c.h
+[1.204s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.205s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/lib/libhesai_ros_driver__rosidl_typesupport_fastrtps_c.so
+[1.205s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver
+[1.205s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg
+[1.206s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.206s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail
+[1.206s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/ptp__struct.hpp
+[1.206s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/firetime__traits.hpp
+[1.206s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/loss_packet__struct.hpp
+[1.207s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/firetime__type_support.hpp
+[1.207s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/udp_packet__traits.hpp
+[1.207s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/loss_packet__type_support.hpp
+[1.207s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/udp_packet__struct.hpp
+[1.207s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/firetime__struct.hpp
+[1.207s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/udp_frame__struct.hpp
+[1.207s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/udp_frame__traits.hpp
+[1.208s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/udp_packet__type_support.hpp
+[1.208s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/loss_packet__traits.hpp
+[1.208s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/udp_frame__builder.hpp
+[1.208s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/ptp__traits.hpp
+[1.208s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/udp_frame__type_support.hpp
+[1.208s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/loss_packet__builder.hpp
+[1.208s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/firetime__builder.hpp
+[1.208s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/ptp__builder.hpp
+[1.208s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/ptp__type_support.hpp
+[1.208s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/udp_packet__builder.hpp
+[1.209s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/udp_frame.hpp
+[1.211s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/loss_packet.hpp
+[1.211s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/udp_packet.hpp
+[1.211s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/firetime.hpp
+[1.211s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/ptp.hpp
+[1.211s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver
+[1.211s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg
+[1.211s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.211s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail
+[1.211s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/udp_frame__rosidl_typesupport_fastrtps_cpp.hpp
+[1.212s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/ptp__rosidl_typesupport_fastrtps_cpp.hpp
+[1.212s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/dds_fastrtps
+[1.212s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/firetime__rosidl_typesupport_fastrtps_cpp.hpp
+[1.212s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/loss_packet__rosidl_typesupport_fastrtps_cpp.hpp
+[1.212s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/udp_packet__rosidl_typesupport_fastrtps_cpp.hpp
+[1.212s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/lib/libhesai_ros_driver__rosidl_typesupport_fastrtps_cpp.so
+[1.212s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver
+[1.212s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg
+[1.212s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail
+[1.213s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/ptp__rosidl_typesupport_introspection_c.h
+[1.213s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/loss_packet__rosidl_typesupport_introspection_c.h
+[1.213s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/udp_packet__rosidl_typesupport_introspection_c.h
+[1.213s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/firetime__type_support.c
+[1.213s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/ptp__type_support.c
+[1.213s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/firetime__rosidl_typesupport_introspection_c.h
+[1.213s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/udp_packet__type_support.c
+[1.213s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/loss_packet__type_support.c
+[1.213s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/udp_frame__type_support.c
+[1.213s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/udp_frame__rosidl_typesupport_introspection_c.h
+[1.214s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.214s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/lib/libhesai_ros_driver__rosidl_typesupport_introspection_c.so
+[1.216s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/lib/libhesai_ros_driver__rosidl_typesupport_c.so
+[1.218s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver
+[1.219s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg
+[1.219s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail
+[1.219s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/udp_frame__rosidl_typesupport_introspection_cpp.hpp
+[1.219s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/firetime__type_support.cpp
+[1.219s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/ptp__type_support.cpp
+[1.219s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/ptp__rosidl_typesupport_introspection_cpp.hpp
+[1.220s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/udp_frame__type_support.cpp
+[1.220s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/udp_packet__type_support.cpp
+[1.220s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/loss_packet__type_support.cpp
+[1.220s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/udp_packet__rosidl_typesupport_introspection_cpp.hpp
+[1.220s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/loss_packet__rosidl_typesupport_introspection_cpp.hpp
+[1.220s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/include/hesai_ros_driver/hesai_ros_driver/msg/detail/firetime__rosidl_typesupport_introspection_cpp.hpp
+[1.222s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/lib/libhesai_ros_driver__rosidl_typesupport_introspection_cpp.so
+[1.223s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/lib/libhesai_ros_driver__rosidl_typesupport_cpp.so
+[1.223s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/environment/pythonpath.sh
+[1.223s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/environment/pythonpath.dsv
+[1.223s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/local/lib/python3.10/dist-packages/hesai_ros_driver-1.5.0-py3.10.egg-info
+[1.223s] -- Installing: /home/ros2/ws/install/hesai_ros_driver/local/lib/python3.10/dist-packages/hesai_ros_driver-1.5.0-py3.10.egg-info/top_level.txt
+[1.223s] -- Installing: /home/ros2/ws/install/hesai_ros_driver/local/lib/python3.10/dist-packages/hesai_ros_driver-1.5.0-py3.10.egg-info/SOURCES.txt
+[1.223s] -- Installing: /home/ros2/ws/install/hesai_ros_driver/local/lib/python3.10/dist-packages/hesai_ros_driver-1.5.0-py3.10.egg-info/PKG-INFO
+[1.223s] -- Installing: /home/ros2/ws/install/hesai_ros_driver/local/lib/python3.10/dist-packages/hesai_ros_driver-1.5.0-py3.10.egg-info/dependency_links.txt
+[1.224s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/local/lib/python3.10/dist-packages/hesai_ros_driver
+[1.224s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/local/lib/python3.10/dist-packages/hesai_ros_driver/_hesai_ros_driver_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.224s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/local/lib/python3.10/dist-packages/hesai_ros_driver/hesai_ros_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.224s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/local/lib/python3.10/dist-packages/hesai_ros_driver/hesai_ros_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.224s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/local/lib/python3.10/dist-packages/hesai_ros_driver/msg
+[1.224s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/local/lib/python3.10/dist-packages/hesai_ros_driver/msg/_firetime_s.c
+[1.224s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/local/lib/python3.10/dist-packages/hesai_ros_driver/msg/_ptp_s.c
+[1.224s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/local/lib/python3.10/dist-packages/hesai_ros_driver/msg/_ptp.py
+[1.224s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/local/lib/python3.10/dist-packages/hesai_ros_driver/msg/_udp_frame.py
+[1.224s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/local/lib/python3.10/dist-packages/hesai_ros_driver/msg/_udp_packet.py
+[1.224s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/local/lib/python3.10/dist-packages/hesai_ros_driver/msg/_loss_packet_s.c
+[1.224s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/local/lib/python3.10/dist-packages/hesai_ros_driver/msg/_loss_packet.py
+[1.225s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/local/lib/python3.10/dist-packages/hesai_ros_driver/msg/_firetime.py
+[1.225s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/local/lib/python3.10/dist-packages/hesai_ros_driver/msg/_udp_packet_s.c
+[1.225s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/local/lib/python3.10/dist-packages/hesai_ros_driver/msg/_udp_frame_s.c
+[1.225s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/local/lib/python3.10/dist-packages/hesai_ros_driver/msg/__init__.py
+[1.225s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/local/lib/python3.10/dist-packages/hesai_ros_driver/_hesai_ros_driver_s.ep.rosidl_typesupport_introspection_c.c
+[1.225s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/local/lib/python3.10/dist-packages/hesai_ros_driver/hesai_ros_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.225s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/local/lib/python3.10/dist-packages/hesai_ros_driver/libhesai_ros_driver__rosidl_generator_py.so
+[1.225s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/local/lib/python3.10/dist-packages/hesai_ros_driver/_hesai_ros_driver_s.ep.rosidl_typesupport_c.c
+[1.225s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/local/lib/python3.10/dist-packages/hesai_ros_driver/__init__.py
+[1.235s] Listing '/home/ros2/ws/install/hesai_ros_driver/local/lib/python3.10/dist-packages/hesai_ros_driver'...
+[1.235s] Listing '/home/ros2/ws/install/hesai_ros_driver/local/lib/python3.10/dist-packages/hesai_ros_driver/msg'...
+[1.235s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/local/lib/python3.10/dist-packages/hesai_ros_driver/hesai_ros_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.235s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/local/lib/python3.10/dist-packages/hesai_ros_driver/hesai_ros_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.235s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/local/lib/python3.10/dist-packages/hesai_ros_driver/hesai_ros_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.235s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/lib/libhesai_ros_driver__rosidl_generator_py.so
+[1.236s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/ament_index/resource_index/rust_packages/hesai_ros_driver
+[1.236s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/rust
+[1.236s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/rust/build.rs
+[1.236s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/rust/src
+[1.236s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/rust/src/lib.rs
+[1.236s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/rust/src/msg.rs
+[1.237s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/rust/src/msg
+[1.237s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/rust/src/msg/rmw.rs
+[1.237s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/rust/Cargo.toml
+[1.237s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/msg/UdpPacket.idl
+[1.237s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/msg/UdpFrame.idl
+[1.237s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/msg/Firetime.idl
+[1.237s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/msg/Ptp.idl
+[1.237s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/msg/LossPacket.idl
+[1.237s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/msg_ros2/UdpPacket.msg
+[1.237s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/msg_ros2/UdpFrame.msg
+[1.237s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/msg_ros2/Firetime.msg
+[1.237s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/msg_ros2/Ptp.msg
+[1.237s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/msg_ros2/LossPacket.msg
+[1.237s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/lib/hesai_ros_driver/hesai_ros_driver_node
+[1.238s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/lib/liblog_lib.a
+[1.238s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/lib/libptcClient_lib.a
+[1.238s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/lib/libsource_lib.a
+[1.238s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/lib/libplatutils_lib.a
+[1.238s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/lib/libserialClient_lib.a
+[1.238s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/launch
+[1.238s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/launch/dashing_start.py
+[1.238s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/launch/start.py
+[1.238s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/launch/start.launch
+[1.238s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/rviz
+[1.238s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/rviz/rviz.rviz
+[1.238s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/rviz/rviz2.rviz
+[1.239s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/config
+[1.239s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/config/config.yaml
+[1.239s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/ament_index/resource_index/package_run_dependencies/hesai_ros_driver
+[1.239s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/ament_index/resource_index/parent_prefix_path/hesai_ros_driver
+[1.239s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/environment/ament_prefix_path.sh
+[1.239s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/environment/ament_prefix_path.dsv
+[1.239s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/environment/path.sh
+[1.239s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/environment/path.dsv
+[1.240s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/local_setup.bash
+[1.240s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/local_setup.sh
+[1.240s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/local_setup.zsh
+[1.240s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/local_setup.dsv
+[1.240s] -- Installing: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/package.dsv
+[1.240s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/ament_index/resource_index/packages/hesai_ros_driver
+[1.240s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/cmake/export_hesai_ros_driver__rosidl_generator_cExport.cmake
+[1.240s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/cmake/export_hesai_ros_driver__rosidl_generator_cExport-release.cmake
+[1.241s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/cmake/export_hesai_ros_driver__rosidl_typesupport_fastrtps_cExport.cmake
+[1.241s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/cmake/export_hesai_ros_driver__rosidl_typesupport_fastrtps_cExport-release.cmake
+[1.241s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/cmake/export_hesai_ros_driver__rosidl_generator_cppExport.cmake
+[1.241s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/cmake/export_hesai_ros_driver__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.241s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/cmake/export_hesai_ros_driver__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[1.241s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/cmake/hesai_ros_driver__rosidl_typesupport_introspection_cExport.cmake
+[1.241s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/cmake/hesai_ros_driver__rosidl_typesupport_introspection_cExport-release.cmake
+[1.241s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/cmake/hesai_ros_driver__rosidl_typesupport_cExport.cmake
+[1.241s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/cmake/hesai_ros_driver__rosidl_typesupport_cExport-release.cmake
+[1.241s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/cmake/hesai_ros_driver__rosidl_typesupport_introspection_cppExport.cmake
+[1.242s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/cmake/hesai_ros_driver__rosidl_typesupport_introspection_cppExport-release.cmake
+[1.242s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/cmake/hesai_ros_driver__rosidl_typesupport_cppExport.cmake
+[1.242s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/cmake/hesai_ros_driver__rosidl_typesupport_cppExport-release.cmake
+[1.242s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/cmake/export_hesai_ros_driver__rosidl_generator_pyExport.cmake
+[1.242s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/cmake/export_hesai_ros_driver__rosidl_generator_pyExport-release.cmake
+[1.242s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/cmake/rosidl_cmake-extras.cmake
+[1.242s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.242s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.242s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[1.242s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/cmake/ament_cmake_export_targets-extras.cmake
+[1.242s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.243s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.243s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/cmake/hesai_ros_driverConfig.cmake
+[1.243s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/cmake/hesai_ros_driverConfig-version.cmake
+[1.243s] -- Up-to-date: /home/ros2/ws/install/hesai_ros_driver/share/hesai_ros_driver/package.xml
+[1.284s] Invoked command in '/home/ros2/ws/build/hesai_ros_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ros2/ws/install/go2_cmd_processor:/home/ros2/ws/install/image_processing:/home/ros2/ws/install/go2_slam_nav:/home/ros2/ws/install/frontier:/opt/ros/humble /usr/bin/cmake --install /home/ros2/ws/build/hesai_ros_driver

@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/frontier/frontier.egg-info/PKG-INFO
+writing dependency_links to ../../build/frontier/frontier.egg-info/dependency_links.txt
+writing entry points to ../../build/frontier/frontier.egg-info/entry_points.txt
+writing requirements to ../../build/frontier/frontier.egg-info/requires.txt
+writing top-level names to ../../build/frontier/frontier.egg-info/top_level.txt
+reading manifest file '../../build/frontier/frontier.egg-info/SOURCES.txt'
+writing manifest file '../../build/frontier/frontier.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/ros2/ws/install/frontier/lib/python3.10/site-packages/frontier-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/frontier/frontier.egg-info to /home/ros2/ws/install/frontier/lib/python3.10/site-packages/frontier-0.0.0-py3.10.egg-info
+running install_scripts
+Installing explore script to /home/ros2/ws/install/frontier/lib/frontier
+Installing explore_detect script to /home/ros2/ws/install/frontier/lib/frontier
+Installing explore_update script to /home/ros2/ws/install/frontier/lib/frontier
+Installing explore_update2 script to /home/ros2/ws/install/frontier/lib/frontier
+writing list of installed files to '/home/ros2/ws/build/frontier/install.log'

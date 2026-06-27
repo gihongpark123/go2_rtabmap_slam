@@ -1,0 +1,21 @@
+/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running egg_info
+writing ../../build/go2_slam_nav/go2_slam_nav.egg-info/PKG-INFO
+writing dependency_links to ../../build/go2_slam_nav/go2_slam_nav.egg-info/dependency_links.txt
+writing entry points to ../../build/go2_slam_nav/go2_slam_nav.egg-info/entry_points.txt
+writing requirements to ../../build/go2_slam_nav/go2_slam_nav.egg-info/requires.txt
+writing top-level names to ../../build/go2_slam_nav/go2_slam_nav.egg-info/top_level.txt
+reading manifest file '../../build/go2_slam_nav/go2_slam_nav.egg-info/SOURCES.txt'
+writing manifest file '../../build/go2_slam_nav/go2_slam_nav.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying launch/nav.launch.py -> /home/ros2/ws/install/go2_slam_nav/share/go2_slam_nav/launch
+running install_egg_info
+removing '/home/ros2/ws/install/go2_slam_nav/lib/python3.10/site-packages/go2_slam_nav-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/go2_slam_nav/go2_slam_nav.egg-info to /home/ros2/ws/install/go2_slam_nav/lib/python3.10/site-packages/go2_slam_nav-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/ros2/ws/build/go2_slam_nav/install.log'

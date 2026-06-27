@@ -1,0 +1,30 @@
+[0.278s] Invoking command in '/home/ros2/ws/build/rslidar_sdk': CMAKE_PREFIX_PATH=/home/ros2/ws/install/rslidar_msg:/home/ros2/ws/install/unitree_ros2_example:/home/ros2/ws/install/unitree_hg:/home/ros2/ws/install/unitree_go:/home/ros2/ws/install/unitree_api:/home/ros2/ws/install/rslidar_sdk:/home/ros2/ws/install/hesai_ros_driver:/home/ros2/ws/install/go2_cmd_processor:/home/ros2/ws/install/image_processing:/home/ros2/ws/install/go2_slam_nav:/home/ros2/ws/install/frontier:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ws/install/rslidar_msg/lib:/home/ros2/ws/install/unitree_hg/lib:/home/ros2/ws/install/unitree_go/lib:/home/ros2/ws/install/unitree_api/lib:/home/ros2/ws/install/hesai_ros_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ros2/ws/build/rslidar_sdk -- -j8 -l8
+[0.359s] [100%] Built target rslidar_sdk_node
+[0.396s] Invoked command in '/home/ros2/ws/build/rslidar_sdk' returned '0': CMAKE_PREFIX_PATH=/home/ros2/ws/install/rslidar_msg:/home/ros2/ws/install/unitree_ros2_example:/home/ros2/ws/install/unitree_hg:/home/ros2/ws/install/unitree_go:/home/ros2/ws/install/unitree_api:/home/ros2/ws/install/rslidar_sdk:/home/ros2/ws/install/hesai_ros_driver:/home/ros2/ws/install/go2_cmd_processor:/home/ros2/ws/install/image_processing:/home/ros2/ws/install/go2_slam_nav:/home/ros2/ws/install/frontier:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ws/install/rslidar_msg/lib:/home/ros2/ws/install/unitree_hg/lib:/home/ros2/ws/install/unitree_go/lib:/home/ros2/ws/install/unitree_api/lib:/home/ros2/ws/install/hesai_ros_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/ros2/ws/build/rslidar_sdk -- -j8 -l8
+[0.397s] Invoking command in '/home/ros2/ws/build/rslidar_sdk': CMAKE_PREFIX_PATH=/home/ros2/ws/install/rslidar_msg:/home/ros2/ws/install/unitree_ros2_example:/home/ros2/ws/install/unitree_hg:/home/ros2/ws/install/unitree_go:/home/ros2/ws/install/unitree_api:/home/ros2/ws/install/rslidar_sdk:/home/ros2/ws/install/hesai_ros_driver:/home/ros2/ws/install/go2_cmd_processor:/home/ros2/ws/install/image_processing:/home/ros2/ws/install/go2_slam_nav:/home/ros2/ws/install/frontier:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ws/install/rslidar_msg/lib:/home/ros2/ws/install/unitree_hg/lib:/home/ros2/ws/install/unitree_go/lib:/home/ros2/ws/install/unitree_api/lib:/home/ros2/ws/install/hesai_ros_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ros2/ws/build/rslidar_sdk
+[0.410s] -- Install configuration: "Release"
+[0.411s] -- Up-to-date: /home/ros2/ws/install/rslidar_sdk/lib/rslidar_sdk/rslidar_sdk_node
+[0.411s] -- Up-to-date: /home/ros2/ws/install/rslidar_sdk/share/rslidar_sdk/launch
+[0.411s] -- Up-to-date: /home/ros2/ws/install/rslidar_sdk/share/rslidar_sdk/launch/start.py
+[0.411s] -- Up-to-date: /home/ros2/ws/install/rslidar_sdk/share/rslidar_sdk/launch/start.launch
+[0.411s] -- Up-to-date: /home/ros2/ws/install/rslidar_sdk/share/rslidar_sdk/launch/elequent_start.py
+[0.411s] -- Up-to-date: /home/ros2/ws/install/rslidar_sdk/share/rslidar_sdk/launch/humble_start.py
+[0.411s] -- Up-to-date: /home/ros2/ws/install/rslidar_sdk/share/rslidar_sdk/rviz
+[0.412s] -- Up-to-date: /home/ros2/ws/install/rslidar_sdk/share/rslidar_sdk/rviz/rviz.rviz
+[0.412s] -- Up-to-date: /home/ros2/ws/install/rslidar_sdk/share/rslidar_sdk/rviz/rviz2.rviz
+[0.412s] -- Up-to-date: /home/ros2/ws/install/rslidar_sdk/share/ament_index/resource_index/package_run_dependencies/rslidar_sdk
+[0.412s] -- Up-to-date: /home/ros2/ws/install/rslidar_sdk/share/ament_index/resource_index/parent_prefix_path/rslidar_sdk
+[0.412s] -- Up-to-date: /home/ros2/ws/install/rslidar_sdk/share/rslidar_sdk/environment/ament_prefix_path.sh
+[0.412s] -- Up-to-date: /home/ros2/ws/install/rslidar_sdk/share/rslidar_sdk/environment/ament_prefix_path.dsv
+[0.412s] -- Up-to-date: /home/ros2/ws/install/rslidar_sdk/share/rslidar_sdk/environment/path.sh
+[0.412s] -- Up-to-date: /home/ros2/ws/install/rslidar_sdk/share/rslidar_sdk/environment/path.dsv
+[0.414s] -- Up-to-date: /home/ros2/ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.bash
+[0.421s] -- Up-to-date: /home/ros2/ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.sh
+[0.421s] -- Up-to-date: /home/ros2/ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.zsh
+[0.421s] -- Up-to-date: /home/ros2/ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.dsv
+[0.421s] -- Installing: /home/ros2/ws/install/rslidar_sdk/share/rslidar_sdk/package.dsv
+[0.421s] -- Up-to-date: /home/ros2/ws/install/rslidar_sdk/share/ament_index/resource_index/packages/rslidar_sdk
+[0.421s] -- Up-to-date: /home/ros2/ws/install/rslidar_sdk/share/rslidar_sdk/cmake/rslidar_sdkConfig.cmake
+[0.421s] -- Up-to-date: /home/ros2/ws/install/rslidar_sdk/share/rslidar_sdk/cmake/rslidar_sdkConfig-version.cmake
+[0.421s] -- Up-to-date: /home/ros2/ws/install/rslidar_sdk/share/rslidar_sdk/package.xml
+[0.421s] Invoked command in '/home/ros2/ws/build/rslidar_sdk' returned '0': CMAKE_PREFIX_PATH=/home/ros2/ws/install/rslidar_msg:/home/ros2/ws/install/unitree_ros2_example:/home/ros2/ws/install/unitree_hg:/home/ros2/ws/install/unitree_go:/home/ros2/ws/install/unitree_api:/home/ros2/ws/install/rslidar_sdk:/home/ros2/ws/install/hesai_ros_driver:/home/ros2/ws/install/go2_cmd_processor:/home/ros2/ws/install/image_processing:/home/ros2/ws/install/go2_slam_nav:/home/ros2/ws/install/frontier:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ws/install/rslidar_msg/lib:/home/ros2/ws/install/unitree_hg/lib:/home/ros2/ws/install/unitree_go/lib:/home/ros2/ws/install/unitree_api/lib:/home/ros2/ws/install/hesai_ros_driver/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/ros2/ws/build/rslidar_sdk

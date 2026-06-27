@@ -1,0 +1,51 @@
+running egg_info
+creating ../../build/frontier/frontier.egg-info
+writing ../../build/frontier/frontier.egg-info/PKG-INFO
+writing dependency_links to ../../build/frontier/frontier.egg-info/dependency_links.txt
+writing entry points to ../../build/frontier/frontier.egg-info/entry_points.txt
+writing requirements to ../../build/frontier/frontier.egg-info/requires.txt
+writing top-level names to ../../build/frontier/frontier.egg-info/top_level.txt
+writing manifest file '../../build/frontier/frontier.egg-info/SOURCES.txt'
+reading manifest file '../../build/frontier/frontier.egg-info/SOURCES.txt'
+writing manifest file '../../build/frontier/frontier.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ros2/ws/build/frontier/build
+creating /home/ros2/ws/build/frontier/build/lib
+creating /home/ros2/ws/build/frontier/build/lib/frontier
+copying frontier/frontier_update2.py -> /home/ros2/ws/build/frontier/build/lib/frontier
+copying frontier/frontier.py -> /home/ros2/ws/build/frontier/build/lib/frontier
+copying frontier/frontier_update1.py -> /home/ros2/ws/build/frontier/build/lib/frontier
+copying frontier/__init__.py -> /home/ros2/ws/build/frontier/build/lib/frontier
+running install
+running install_lib
+creating /home/ros2/ws/install/frontier/lib/python3.10/site-packages/frontier
+copying /home/ros2/ws/build/frontier/build/lib/frontier/frontier_update2.py -> /home/ros2/ws/install/frontier/lib/python3.10/site-packages/frontier
+copying /home/ros2/ws/build/frontier/build/lib/frontier/frontier.py -> /home/ros2/ws/install/frontier/lib/python3.10/site-packages/frontier
+copying /home/ros2/ws/build/frontier/build/lib/frontier/frontier_update1.py -> /home/ros2/ws/install/frontier/lib/python3.10/site-packages/frontier
+copying /home/ros2/ws/build/frontier/build/lib/frontier/__init__.py -> /home/ros2/ws/install/frontier/lib/python3.10/site-packages/frontier
+byte-compiling /home/ros2/ws/install/frontier/lib/python3.10/site-packages/frontier/frontier_update2.py to frontier_update2.cpython-310.pyc
+byte-compiling /home/ros2/ws/install/frontier/lib/python3.10/site-packages/frontier/frontier.py to frontier.cpython-310.pyc
+byte-compiling /home/ros2/ws/install/frontier/lib/python3.10/site-packages/frontier/frontier_update1.py to frontier_update1.cpython-310.pyc
+byte-compiling /home/ros2/ws/install/frontier/lib/python3.10/site-packages/frontier/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/ros2/ws/install/frontier/share/ament_index
+creating /home/ros2/ws/install/frontier/share/ament_index/resource_index
+creating /home/ros2/ws/install/frontier/share/ament_index/resource_index/packages
+copying resource/frontier -> /home/ros2/ws/install/frontier/share/ament_index/resource_index/packages
+copying package.xml -> /home/ros2/ws/install/frontier/share/frontier
+creating /home/ros2/ws/install/frontier/share/frontier/launch
+copying launch/frontier.launch.xml -> /home/ros2/ws/install/frontier/share/frontier/launch
+copying launch/frontier_update.launch.xml -> /home/ros2/ws/install/frontier/share/frontier/launch
+creating /home/ros2/ws/install/frontier/share/frontier/config
+copying config/frontier_only.rviz -> /home/ros2/ws/install/frontier/share/frontier/config
+running install_egg_info
+Copying ../../build/frontier/frontier.egg-info to /home/ros2/ws/install/frontier/lib/python3.10/site-packages/frontier-0.0.0-py3.10.egg-info
+running install_scripts
+Installing explore script to /home/ros2/ws/install/frontier/lib/frontier
+Installing explore_detect script to /home/ros2/ws/install/frontier/lib/frontier
+Installing explore_update script to /home/ros2/ws/install/frontier/lib/frontier
+Installing explore_update2 script to /home/ros2/ws/install/frontier/lib/frontier
+writing list of installed files to '/home/ros2/ws/build/frontier/install.log'
+/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(

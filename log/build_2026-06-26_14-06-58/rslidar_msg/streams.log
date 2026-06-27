@@ -1,0 +1,253 @@
+[0.020s] Invoking command in '/home/ros2/ws/build/rslidar_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros2/ws/src/lidar_msg -DCMAKE_INSTALL_PREFIX=/home/ros2/ws/install/rslidar_msg
+[0.708s] -- The C compiler identification is GNU 11.4.0
+[0.708s] -- The CXX compiler identification is GNU 11.4.0
+[0.708s] -- Detecting C compiler ABI info
+[0.708s] -- Detecting C compiler ABI info - done
+[0.708s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.708s] -- Detecting C compile features
+[0.708s] -- Detecting C compile features - done
+[0.708s] -- Detecting CXX compiler ABI info
+[0.708s] -- Detecting CXX compiler ABI info - done
+[0.708s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.709s] -- Detecting CXX compile features
+[0.709s] -- Detecting CXX compile features - done
+[0.709s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.709s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.709s] -- Found std_msgs: 4.9.1 (/opt/ros/humble/share/std_msgs/cmake)
+[0.709s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.709s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.709s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.709s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.709s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.709s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.709s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.709s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.725s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.753s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.803s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.815s] -- Looking for pthread.h
+[0.905s] -- Looking for pthread.h - found
+[0.906s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.991s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.993s] -- Found Threads: TRUE  
+[1.048s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.406s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.804s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.929s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.955s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.957s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.980s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.980s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.980s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.980s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.998s] -- Found PythonExtra: .so  
+[2.090s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.105s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.109s] -- Added test 'lint_cmake' to check CMake code style
+[2.111s] -- Added test 'xmllint' to check XML markup files
+[2.113s] -- Configuring done
+[2.137s] -- Generating done
+[2.146s] -- Build files have been written to: /home/ros2/ws/build/rslidar_msg
+[2.157s] Invoked command in '/home/ros2/ws/build/rslidar_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros2/ws/src/lidar_msg -DCMAKE_INSTALL_PREFIX=/home/ros2/ws/install/rslidar_msg
+[2.158s] Invoking command in '/home/ros2/ws/build/rslidar_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2/ws/build/rslidar_msg -- -j8 -l8
+[2.231s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.254s] [  6%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[2.264s] [  9%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.306s] [  9%] Built target ament_cmake_python_copy_rslidar_msg
+[2.937s] [ 12%] [32mBuilding C object CMakeFiles/rslidar_msg__rosidl_generator_c.dir/rosidl_generator_c/rslidar_msg/msg/detail/rslidar_packet__functions.c.o[0m
+[3.088s] [ 15%] [32m[1mLinking C shared library librslidar_msg__rosidl_generator_c.so[0m
+[3.206s] [ 15%] Built target rslidar_msg__rosidl_generator_c
+[3.232s] [ 18%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.237s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.239s] [ 21%] Built target rslidar_msg__rs
+[3.251s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.326s] running egg_info
+[3.326s] creating rslidar_msg.egg-info
+[3.326s] writing rslidar_msg.egg-info/PKG-INFO
+[3.326s] writing dependency_links to rslidar_msg.egg-info/dependency_links.txt
+[3.326s] writing top-level names to rslidar_msg.egg-info/top_level.txt
+[3.328s] writing manifest file 'rslidar_msg.egg-info/SOURCES.txt'
+[3.340s] reading manifest file 'rslidar_msg.egg-info/SOURCES.txt'
+[3.340s] writing manifest file 'rslidar_msg.egg-info/SOURCES.txt'
+[3.340s] [ 25%] Built target rslidar_msg__cpp
+[3.363s] [ 28%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.381s] [ 31%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.386s] [ 34%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.416s] [ 34%] Built target ament_cmake_python_build_rslidar_msg_egg
+[4.053s] [ 37%] [32mBuilding CXX object CMakeFiles/rslidar_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rslidar_msg/msg/detail/rslidar_packet__type_support_c.cpp.o[0m
+[4.069s] [ 40%] [32mBuilding C object CMakeFiles/rslidar_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rslidar_msg/msg/detail/rslidar_packet__type_support.c.o[0m
+[4.121s] [ 43%] [32mBuilding CXX object CMakeFiles/rslidar_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/rslidar_msg/msg/rslidar_packet__type_support.cpp.o[0m
+[4.189s] [ 46%] [32m[1mLinking C shared library librslidar_msg__rosidl_typesupport_introspection_c.so[0m
+[4.227s] [ 50%] [32m[1mLinking CXX shared library librslidar_msg__rosidl_typesupport_c.so[0m
+[4.227s] [ 53%] [32mBuilding CXX object CMakeFiles/rslidar_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rslidar_msg/msg/detail/dds_fastrtps/rslidar_packet__type_support.cpp.o[0m
+[4.292s] [ 56%] [32mBuilding CXX object CMakeFiles/rslidar_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rslidar_msg/msg/rslidar_packet__type_support.cpp.o[0m
+[4.292s] [ 56%] Built target rslidar_msg__rosidl_typesupport_introspection_c
+[4.318s] [ 59%] [32mBuilding CXX object CMakeFiles/rslidar_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rslidar_msg/msg/detail/rslidar_packet__type_support.cpp.o[0m
+[4.397s] [ 59%] Built target rslidar_msg__rosidl_typesupport_c
+[5.070s] [ 62%] [32m[1mLinking CXX shared library librslidar_msg__rosidl_typesupport_cpp.so[0m
+[5.248s] [ 65%] [32m[1mLinking CXX shared library librslidar_msg__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.278s] [ 65%] Built target rslidar_msg__rosidl_typesupport_cpp
+[5.444s] [ 68%] [32m[1mLinking CXX shared library librslidar_msg__rosidl_typesupport_fastrtps_c.so[0m
+[5.594s] [ 68%] Built target rslidar_msg__rosidl_typesupport_fastrtps_cpp
+[5.813s] [ 68%] Built target rslidar_msg__rosidl_typesupport_fastrtps_c
+[6.017s] [ 71%] [32m[1mLinking CXX shared library librslidar_msg__rosidl_typesupport_introspection_cpp.so[0m
+[6.353s] [ 71%] Built target rslidar_msg__rosidl_typesupport_introspection_cpp
+[6.445s] [ 71%] Built target rslidar_msg
+[6.475s] [ 75%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.208s] [ 75%] Built target rslidar_msg__py
+[8.288s] [ 78%] [32mBuilding C object CMakeFiles/rslidar_msg__rosidl_generator_py.dir/rosidl_generator_py/rslidar_msg/msg/_rslidar_packet_s.c.o[0m
+[8.846s] [ 81%] [32m[1mLinking C shared library rosidl_generator_py/rslidar_msg/librslidar_msg__rosidl_generator_py.so[0m
+[8.975s] [ 81%] Built target rslidar_msg__rosidl_generator_py
+[9.081s] [ 84%] [32mBuilding C object CMakeFiles/rslidar_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rslidar_msg/_rslidar_msg_s.ep.rosidl_typesupport_c.c.o[0m
+[9.089s] [ 90%] [32mBuilding C object CMakeFiles/rslidar_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rslidar_msg/_rslidar_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.090s] [ 87%] [32mBuilding C object CMakeFiles/rslidar_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rslidar_msg/_rslidar_msg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.577s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/rslidar_msg/rslidar_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.641s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/rslidar_msg/rslidar_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.735s] [100%] [32m[1mLinking C shared library rosidl_generator_py/rslidar_msg/rslidar_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.778s] [100%] Built target rslidar_msg__rosidl_typesupport_introspection_c__pyext
+[9.796s] [100%] Built target rslidar_msg__rosidl_typesupport_c__pyext
+[9.934s] [100%] Built target rslidar_msg__rosidl_typesupport_fastrtps_c__pyext
+[9.984s] Invoked command in '/home/ros2/ws/build/rslidar_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2/ws/build/rslidar_msg -- -j8 -l8
+[10.032s] Invoking command in '/home/ros2/ws/build/rslidar_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros2/ws/build/rslidar_msg
+[10.052s] -- Install configuration: ""
+[10.054s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/ament_index/resource_index/rosidl_interfaces/rslidar_msg
+[10.056s] -- Installing: /home/ros2/ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg
+[10.056s] -- Installing: /home/ros2/ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg
+[10.056s] -- Installing: /home/ros2/ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail
+[10.064s] -- Installing: /home/ros2/ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__struct.h
+[10.064s] -- Installing: /home/ros2/ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__functions.c
+[10.064s] -- Installing: /home/ros2/ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__functions.h
+[10.064s] -- Installing: /home/ros2/ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__type_support.h
+[10.065s] -- Installing: /home/ros2/ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/rslidar_packet.h
+[10.065s] -- Installing: /home/ros2/ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/rosidl_generator_c__visibility_control.h
+[10.065s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/environment/library_path.sh
+[10.065s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/environment/library_path.dsv
+[10.065s] -- Installing: /home/ros2/ws/install/rslidar_msg/lib/librslidar_msg__rosidl_generator_c.so
+[10.069s] -- Set runtime path of "/home/ros2/ws/install/rslidar_msg/lib/librslidar_msg__rosidl_generator_c.so" to ""
+[10.069s] -- Up-to-date: /home/ros2/ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg
+[10.069s] -- Up-to-date: /home/ros2/ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg
+[10.069s] -- Up-to-date: /home/ros2/ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail
+[10.070s] -- Installing: /home/ros2/ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__rosidl_typesupport_fastrtps_c.h
+[10.070s] -- Installing: /home/ros2/ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.071s] -- Installing: /home/ros2/ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_fastrtps_c.so
+[10.072s] -- Set runtime path of "/home/ros2/ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_fastrtps_c.so" to ""
+[10.072s] -- Up-to-date: /home/ros2/ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg
+[10.072s] -- Up-to-date: /home/ros2/ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg
+[10.072s] -- Installing: /home/ros2/ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/rosidl_generator_cpp__visibility_control.hpp
+[10.075s] -- Up-to-date: /home/ros2/ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail
+[10.075s] -- Installing: /home/ros2/ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__type_support.hpp
+[10.075s] -- Installing: /home/ros2/ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__builder.hpp
+[10.075s] -- Installing: /home/ros2/ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__struct.hpp
+[10.075s] -- Installing: /home/ros2/ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__traits.hpp
+[10.075s] -- Installing: /home/ros2/ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/rslidar_packet.hpp
+[10.080s] -- Up-to-date: /home/ros2/ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg
+[10.080s] -- Up-to-date: /home/ros2/ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg
+[10.080s] -- Installing: /home/ros2/ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.080s] -- Up-to-date: /home/ros2/ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail
+[10.084s] -- Installing: /home/ros2/ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/dds_fastrtps
+[10.085s] -- Installing: /home/ros2/ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__rosidl_typesupport_fastrtps_cpp.hpp
+[10.085s] -- Installing: /home/ros2/ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_fastrtps_cpp.so
+[10.090s] -- Set runtime path of "/home/ros2/ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[10.091s] -- Up-to-date: /home/ros2/ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg
+[10.091s] -- Up-to-date: /home/ros2/ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg
+[10.091s] -- Up-to-date: /home/ros2/ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail
+[10.091s] -- Installing: /home/ros2/ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__rosidl_typesupport_introspection_c.h
+[10.091s] -- Installing: /home/ros2/ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__type_support.c
+[10.091s] -- Installing: /home/ros2/ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.091s] -- Installing: /home/ros2/ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_introspection_c.so
+[10.091s] -- Set runtime path of "/home/ros2/ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_introspection_c.so" to ""
+[10.092s] -- Installing: /home/ros2/ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_c.so
+[10.092s] -- Set runtime path of "/home/ros2/ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_c.so" to ""
+[10.092s] -- Up-to-date: /home/ros2/ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg
+[10.092s] -- Up-to-date: /home/ros2/ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg
+[10.092s] -- Up-to-date: /home/ros2/ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail
+[10.093s] -- Installing: /home/ros2/ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__type_support.cpp
+[10.093s] -- Installing: /home/ros2/ws/install/rslidar_msg/include/rslidar_msg/rslidar_msg/msg/detail/rslidar_packet__rosidl_typesupport_introspection_cpp.hpp
+[10.093s] -- Installing: /home/ros2/ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_introspection_cpp.so
+[10.093s] -- Set runtime path of "/home/ros2/ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_introspection_cpp.so" to ""
+[10.093s] -- Installing: /home/ros2/ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_cpp.so
+[10.093s] -- Set runtime path of "/home/ros2/ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_cpp.so" to ""
+[10.093s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/environment/pythonpath.sh
+[10.094s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/environment/pythonpath.dsv
+[10.094s] -- Installing: /home/ros2/ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg-0.0.0-py3.10.egg-info
+[10.094s] -- Installing: /home/ros2/ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg-0.0.0-py3.10.egg-info/top_level.txt
+[10.094s] -- Installing: /home/ros2/ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg-0.0.0-py3.10.egg-info/SOURCES.txt
+[10.094s] -- Installing: /home/ros2/ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg-0.0.0-py3.10.egg-info/PKG-INFO
+[10.094s] -- Installing: /home/ros2/ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg-0.0.0-py3.10.egg-info/dependency_links.txt
+[10.094s] -- Installing: /home/ros2/ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg
+[10.094s] -- Installing: /home/ros2/ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.095s] -- Installing: /home/ros2/ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/_rslidar_msg_s.ep.rosidl_typesupport_c.c
+[10.095s] -- Installing: /home/ros2/ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/librslidar_msg__rosidl_generator_py.so
+[10.095s] -- Installing: /home/ros2/ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.095s] -- Installing: /home/ros2/ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/msg
+[10.095s] -- Installing: /home/ros2/ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/msg/_rslidar_packet_s.c
+[10.095s] -- Installing: /home/ros2/ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/msg/_rslidar_packet.py
+[10.095s] -- Installing: /home/ros2/ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/msg/__init__.py
+[10.115s] -- Installing: /home/ros2/ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/_rslidar_msg_s.ep.rosidl_typesupport_fastrtps_c.c
+[10.115s] -- Installing: /home/ros2/ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.115s] -- Installing: /home/ros2/ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/_rslidar_msg_s.ep.rosidl_typesupport_introspection_c.c
+[10.115s] -- Installing: /home/ros2/ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/__init__.py
+[10.316s] Listing '/home/ros2/ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg'...
+[10.316s] Compiling '/home/ros2/ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/__init__.py'...
+[10.316s] Listing '/home/ros2/ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/msg'...
+[10.317s] Compiling '/home/ros2/ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/msg/__init__.py'...
+[10.317s] Compiling '/home/ros2/ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/msg/_rslidar_packet.py'...
+[10.347s] -- Installing: /home/ros2/ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.347s] -- Set runtime path of "/home/ros2/ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.347s] -- Installing: /home/ros2/ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.347s] -- Set runtime path of "/home/ros2/ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.350s] -- Installing: /home/ros2/ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.350s] -- Set runtime path of "/home/ros2/ws/install/rslidar_msg/local/lib/python3.10/dist-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.352s] -- Installing: /home/ros2/ws/install/rslidar_msg/lib/librslidar_msg__rosidl_generator_py.so
+[10.355s] -- Set runtime path of "/home/ros2/ws/install/rslidar_msg/lib/librslidar_msg__rosidl_generator_py.so" to ""
+[10.355s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/ament_index/resource_index/rust_packages/rslidar_msg
+[10.355s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/rust
+[10.362s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/rust/build.rs
+[10.362s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/rust/src
+[10.363s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/rust/src/lib.rs
+[10.364s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/rust/src/msg.rs
+[10.365s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/rust/src/msg
+[10.365s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/rust/src/msg/rmw.rs
+[10.365s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/rust/Cargo.toml
+[10.365s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/msg/RslidarPacket.idl
+[10.365s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/msg/RslidarPacket.msg
+[10.365s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/ament_index/resource_index/package_run_dependencies/rslidar_msg
+[10.365s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/ament_index/resource_index/parent_prefix_path/rslidar_msg
+[10.370s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/environment/ament_prefix_path.sh
+[10.371s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/environment/ament_prefix_path.dsv
+[10.378s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/environment/path.sh
+[10.378s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/environment/path.dsv
+[10.378s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/local_setup.bash
+[10.378s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/local_setup.sh
+[10.378s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/local_setup.zsh
+[10.384s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/local_setup.dsv
+[10.384s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/package.dsv
+[10.385s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/ament_index/resource_index/packages/rslidar_msg
+[10.385s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/cmake/export_rslidar_msg__rosidl_generator_cExport.cmake
+[10.385s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/cmake/export_rslidar_msg__rosidl_generator_cExport-noconfig.cmake
+[10.385s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/cmake/export_rslidar_msg__rosidl_typesupport_fastrtps_cExport.cmake
+[10.385s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/cmake/export_rslidar_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.385s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/cmake/export_rslidar_msg__rosidl_generator_cppExport.cmake
+[10.385s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/cmake/export_rslidar_msg__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.385s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/cmake/export_rslidar_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.385s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_introspection_cExport.cmake
+[10.385s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.390s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_cExport.cmake
+[10.390s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_cExport-noconfig.cmake
+[10.390s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_introspection_cppExport.cmake
+[10.390s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.395s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_cppExport.cmake
+[10.395s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[10.395s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/cmake/export_rslidar_msg__rosidl_generator_pyExport.cmake
+[10.395s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/cmake/export_rslidar_msg__rosidl_generator_pyExport-noconfig.cmake
+[10.395s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/cmake/rosidl_cmake-extras.cmake
+[10.395s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.395s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.400s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[10.400s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/cmake/ament_cmake_export_targets-extras.cmake
+[10.400s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.401s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.401s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msgConfig.cmake
+[10.401s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msgConfig-version.cmake
+[10.401s] -- Installing: /home/ros2/ws/install/rslidar_msg/share/rslidar_msg/package.xml
+[10.420s] Invoked command in '/home/ros2/ws/build/rslidar_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros2/ws/build/rslidar_msg

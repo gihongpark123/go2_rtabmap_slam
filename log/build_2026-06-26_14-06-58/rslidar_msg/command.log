@@ -1,0 +1,6 @@
+Invoking command in '/home/ros2/ws/build/rslidar_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros2/ws/src/lidar_msg -DCMAKE_INSTALL_PREFIX=/home/ros2/ws/install/rslidar_msg
+Invoked command in '/home/ros2/ws/build/rslidar_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros2/ws/src/lidar_msg -DCMAKE_INSTALL_PREFIX=/home/ros2/ws/install/rslidar_msg
+Invoking command in '/home/ros2/ws/build/rslidar_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2/ws/build/rslidar_msg -- -j8 -l8
+Invoked command in '/home/ros2/ws/build/rslidar_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2/ws/build/rslidar_msg -- -j8 -l8
+Invoking command in '/home/ros2/ws/build/rslidar_msg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros2/ws/build/rslidar_msg
+Invoked command in '/home/ros2/ws/build/rslidar_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros2/ws/build/rslidar_msg

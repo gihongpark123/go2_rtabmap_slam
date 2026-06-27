@@ -1,0 +1,26 @@
+[1.958s] Invoking command in '/home/ros2/ws/src/frontier': PYTHONPATH=/home/ros2/ws/build/frontier/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ws/install/frontier/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/frontier build --build-base /home/ros2/ws/build/frontier/build install --record /home/ros2/ws/build/frontier/install.log --install-scripts $base/lib/frontier --single-version-externally-managed install_data
+[2.382s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.383s]   warnings.warn(
+[2.391s] running egg_info
+[2.392s] writing ../../build/frontier/frontier.egg-info/PKG-INFO
+[2.392s] writing dependency_links to ../../build/frontier/frontier.egg-info/dependency_links.txt
+[2.392s] writing entry points to ../../build/frontier/frontier.egg-info/entry_points.txt
+[2.392s] writing requirements to ../../build/frontier/frontier.egg-info/requires.txt
+[2.392s] writing top-level names to ../../build/frontier/frontier.egg-info/top_level.txt
+[2.395s] reading manifest file '../../build/frontier/frontier.egg-info/SOURCES.txt'
+[2.395s] writing manifest file '../../build/frontier/frontier.egg-info/SOURCES.txt'
+[2.396s] running build
+[2.396s] running build_py
+[2.396s] running install
+[2.396s] running install_lib
+[2.397s] running install_data
+[2.398s] running install_egg_info
+[2.399s] removing '/home/ros2/ws/install/frontier/lib/python3.10/site-packages/frontier-0.0.0-py3.10.egg-info' (and everything under it)
+[2.400s] Copying ../../build/frontier/frontier.egg-info to /home/ros2/ws/install/frontier/lib/python3.10/site-packages/frontier-0.0.0-py3.10.egg-info
+[2.400s] running install_scripts
+[2.424s] Installing explore script to /home/ros2/ws/install/frontier/lib/frontier
+[2.424s] Installing explore_detect script to /home/ros2/ws/install/frontier/lib/frontier
+[2.424s] Installing explore_update script to /home/ros2/ws/install/frontier/lib/frontier
+[2.424s] Installing explore_update2 script to /home/ros2/ws/install/frontier/lib/frontier
+[2.424s] writing list of installed files to '/home/ros2/ws/build/frontier/install.log'
+[2.450s] Invoked command in '/home/ros2/ws/src/frontier' returned '0': PYTHONPATH=/home/ros2/ws/build/frontier/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ros2/ws/install/frontier/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/frontier build --build-base /home/ros2/ws/build/frontier/build install --record /home/ros2/ws/build/frontier/install.log --install-scripts $base/lib/frontier --single-version-externally-managed install_data

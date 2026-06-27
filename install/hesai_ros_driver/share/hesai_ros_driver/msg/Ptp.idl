@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from hesai_ros_driver/msg/msg_ros2/Ptp.msg
+// generated code does not contain a copyright notice
+
+
+module hesai_ros_driver {
+  module msg {
+    struct Ptp {
+      uint8 ptp_lock_offset;
+
+      uint32 ptp_status_size;
+
+      sequence<uint8> ptp_status;
+    };
+  };
+};

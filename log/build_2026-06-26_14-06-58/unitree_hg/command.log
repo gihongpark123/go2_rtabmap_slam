@@ -1,0 +1,6 @@
+Invoking command in '/home/ros2/ws/build/unitree_hg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros2/ws/src/unitree_sdk/cyclonedds_ws/src/unitree/unitree_hg -DCMAKE_INSTALL_PREFIX=/home/ros2/ws/install/unitree_hg
+Invoked command in '/home/ros2/ws/build/unitree_hg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros2/ws/src/unitree_sdk/cyclonedds_ws/src/unitree/unitree_hg -DCMAKE_INSTALL_PREFIX=/home/ros2/ws/install/unitree_hg
+Invoking command in '/home/ros2/ws/build/unitree_hg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2/ws/build/unitree_hg -- -j8 -l8
+Invoked command in '/home/ros2/ws/build/unitree_hg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros2/ws/build/unitree_hg -- -j8 -l8
+Invoking command in '/home/ros2/ws/build/unitree_hg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros2/ws/build/unitree_hg
+Invoked command in '/home/ros2/ws/build/unitree_hg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros2/ws/build/unitree_hg

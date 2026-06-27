@@ -1,0 +1,6 @@
+source;share/frontier/hook/pythonpath.ps1
+source;share/frontier/hook/pythonpath.dsv
+source;share/frontier/hook/pythonpath.sh
+source;share/frontier/hook/ament_prefix_path.ps1
+source;share/frontier/hook/ament_prefix_path.dsv
+source;share/frontier/hook/ament_prefix_path.sh

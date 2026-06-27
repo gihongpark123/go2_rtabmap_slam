@@ -1,0 +1,3 @@
+[console_scripts]
+sport_ctrl = go2_cmd_processor.sport_ctrl:main
+

@@ -1,0 +1,84 @@
+[0.048s] Invoking command in '/home/ros2/ws/build/rslidar_sdk': AMENT_PREFIX_PATH=/home/ros2/ws/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ws/install/rslidar_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ws/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/ws/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ros2/ws/src/lidar_sdk -DCMAKE_INSTALL_PREFIX=/home/ros2/ws/install/rslidar_sdk
+[0.212s] -- The C compiler identification is GNU 11.4.0
+[0.513s] -- The CXX compiler identification is GNU 11.4.0
+[0.539s] -- Detecting C compiler ABI info
+[0.844s] -- Detecting C compiler ABI info - done
+[0.915s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.915s] -- Detecting C compile features
+[0.915s] -- Detecting C compile features - done
+[0.937s] -- Detecting CXX compiler ABI info
+[1.319s] -- Detecting CXX compiler ABI info - done
+[1.337s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.338s] -- Detecting CXX compile features
+[1.339s] -- Detecting CXX compile features - done
+[1.343s] [0m=============================================================[0m
+[1.343s] [0m-- POINT_TYPE is XYZI[0m
+[1.343s] [0m=============================================================[0m
+[1.368s] [0m=============================================================[0m
+[1.368s] [0m-- ROS Not Found. ROS Support is turned Off.[0m
+[1.368s] [0m=============================================================[0m
+[2.139s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.164s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.199s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.270s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.377s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.503s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.850s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.878s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.386s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.580s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.832s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.881s] -- Looking for pthread.h
+[5.311s] -- Looking for pthread.h - found
+[5.311s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.630s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.637s] -- Found Threads: TRUE  
+[6.010s] [0m=============================================================[0m
+[6.010s] [0m-- ROS2 Found. ROS2 Support is turned On.[0m
+[6.010s] [0m=============================================================[0m
+[6.023s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[6.236s] -- Found rslidar_msg: 0.0.0 (/home/ros2/ws/install/rslidar_msg/share/rslidar_msg/cmake)
+[6.340s] [0m=============================================================[0m
+[6.340s] [0m-- CMake run for UNIX GNU Compiler[0m
+[6.346s] [0m=============================================================[0m
+[6.346s] [0m=============================================================[0m
+[6.346s] [0m-- rs_driver Version : v1.5.19[0m
+[6.346s] [0m=============================================================[0m
+[6.531s] -- Configuring done
+[6.591s] -- Generating done
+[6.612s] -- Build files have been written to: /home/ros2/ws/build/rslidar_sdk
+[6.678s] Invoked command in '/home/ros2/ws/build/rslidar_sdk' returned '0': AMENT_PREFIX_PATH=/home/ros2/ws/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ws/install/rslidar_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ws/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/ws/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ros2/ws/src/lidar_sdk -DCMAKE_INSTALL_PREFIX=/home/ros2/ws/install/rslidar_sdk
+[6.679s] Invoking command in '/home/ros2/ws/build/rslidar_sdk': AMENT_PREFIX_PATH=/home/ros2/ws/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ws/install/rslidar_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ws/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/ws/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2/ws/build/rslidar_sdk -- -j8 -l8
+[6.894s] [ 33%] [32mBuilding CXX object CMakeFiles/rslidar_sdk_node.dir/node/rslidar_sdk_node.cpp.o[0m
+[6.909s] [ 66%] [32mBuilding CXX object CMakeFiles/rslidar_sdk_node.dir/src/manager/node_manager.cpp.o[0m
+[35.330s] [100%] [32m[1mLinking CXX executable rslidar_sdk_node[0m
+[35.527s] [100%] Built target rslidar_sdk_node
+[35.537s] Invoked command in '/home/ros2/ws/build/rslidar_sdk' returned '0': AMENT_PREFIX_PATH=/home/ros2/ws/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ws/install/rslidar_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ws/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/ws/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ros2/ws/build/rslidar_sdk -- -j8 -l8
+[35.539s] Invoking command in '/home/ros2/ws/build/rslidar_sdk': AMENT_PREFIX_PATH=/home/ros2/ws/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ws/install/rslidar_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ws/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/ws/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2/ws/build/rslidar_sdk
+[35.545s] -- Install configuration: "Release"
+[35.545s] -- Installing: /home/ros2/ws/install/rslidar_sdk/lib/rslidar_sdk/rslidar_sdk_node
+[35.546s] -- Set runtime path of "/home/ros2/ws/install/rslidar_sdk/lib/rslidar_sdk/rslidar_sdk_node" to ""
+[35.546s] -- Installing: /home/ros2/ws/install/rslidar_sdk/share/rslidar_sdk/launch
+[35.546s] -- Installing: /home/ros2/ws/install/rslidar_sdk/share/rslidar_sdk/launch/start.py
+[35.546s] -- Installing: /home/ros2/ws/install/rslidar_sdk/share/rslidar_sdk/launch/start.launch
+[35.546s] -- Installing: /home/ros2/ws/install/rslidar_sdk/share/rslidar_sdk/launch/elequent_start.py
+[35.547s] -- Installing: /home/ros2/ws/install/rslidar_sdk/share/rslidar_sdk/launch/humble_start.py
+[35.547s] -- Installing: /home/ros2/ws/install/rslidar_sdk/share/rslidar_sdk/rviz
+[35.547s] -- Installing: /home/ros2/ws/install/rslidar_sdk/share/rslidar_sdk/rviz/rviz.rviz
+[35.547s] -- Installing: /home/ros2/ws/install/rslidar_sdk/share/rslidar_sdk/rviz/rviz2.rviz
+[35.547s] -- Installing: /home/ros2/ws/install/rslidar_sdk/share/ament_index/resource_index/package_run_dependencies/rslidar_sdk
+[35.548s] -- Installing: /home/ros2/ws/install/rslidar_sdk/share/ament_index/resource_index/parent_prefix_path/rslidar_sdk
+[35.548s] -- Installing: /home/ros2/ws/install/rslidar_sdk/share/rslidar_sdk/environment/ament_prefix_path.sh
+[35.548s] -- Installing: /home/ros2/ws/install/rslidar_sdk/share/rslidar_sdk/environment/ament_prefix_path.dsv
+[35.548s] -- Installing: /home/ros2/ws/install/rslidar_sdk/share/rslidar_sdk/environment/path.sh
+[35.548s] -- Installing: /home/ros2/ws/install/rslidar_sdk/share/rslidar_sdk/environment/path.dsv
+[35.548s] -- Installing: /home/ros2/ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.bash
+[35.548s] -- Installing: /home/ros2/ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.sh
+[35.548s] -- Installing: /home/ros2/ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.zsh
+[35.548s] -- Installing: /home/ros2/ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.dsv
+[35.548s] -- Installing: /home/ros2/ws/install/rslidar_sdk/share/rslidar_sdk/package.dsv
+[35.548s] -- Installing: /home/ros2/ws/install/rslidar_sdk/share/ament_index/resource_index/packages/rslidar_sdk
+[35.548s] -- Installing: /home/ros2/ws/install/rslidar_sdk/share/rslidar_sdk/cmake/rslidar_sdkConfig.cmake
+[35.548s] -- Installing: /home/ros2/ws/install/rslidar_sdk/share/rslidar_sdk/cmake/rslidar_sdkConfig-version.cmake
+[35.549s] -- Installing: /home/ros2/ws/install/rslidar_sdk/share/rslidar_sdk/package.xml
+[35.550s] Invoked command in '/home/ros2/ws/build/rslidar_sdk' returned '0': AMENT_PREFIX_PATH=/home/ros2/ws/install/rslidar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ros2/ws/install/rslidar_msg:/opt/ros/humble LD_LIBRARY_PATH=/home/ros2/ws/install/rslidar_msg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ros2/ws/install/rslidar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/ros2/ws/build/rslidar_sdk

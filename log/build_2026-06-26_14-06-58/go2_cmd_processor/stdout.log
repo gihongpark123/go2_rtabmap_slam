@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/go2_cmd_processor/go2_cmd_processor.egg-info
+writing ../../build/go2_cmd_processor/go2_cmd_processor.egg-info/PKG-INFO
+writing dependency_links to ../../build/go2_cmd_processor/go2_cmd_processor.egg-info/dependency_links.txt
+writing entry points to ../../build/go2_cmd_processor/go2_cmd_processor.egg-info/entry_points.txt
+writing requirements to ../../build/go2_cmd_processor/go2_cmd_processor.egg-info/requires.txt
+writing top-level names to ../../build/go2_cmd_processor/go2_cmd_processor.egg-info/top_level.txt
+writing manifest file '../../build/go2_cmd_processor/go2_cmd_processor.egg-info/SOURCES.txt'
+reading manifest file '../../build/go2_cmd_processor/go2_cmd_processor.egg-info/SOURCES.txt'
+writing manifest file '../../build/go2_cmd_processor/go2_cmd_processor.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ros2/ws/build/go2_cmd_processor/build
+creating /home/ros2/ws/build/go2_cmd_processor/build/lib
+creating /home/ros2/ws/build/go2_cmd_processor/build/lib/go2_cmd_processor
+copying go2_cmd_processor/sport_ctrl.py -> /home/ros2/ws/build/go2_cmd_processor/build/lib/go2_cmd_processor
+copying go2_cmd_processor/__init__.py -> /home/ros2/ws/build/go2_cmd_processor/build/lib/go2_cmd_processor
+running install
+running install_lib
+creating /home/ros2/ws/install/go2_cmd_processor/lib/python3.10/site-packages/go2_cmd_processor
+copying /home/ros2/ws/build/go2_cmd_processor/build/lib/go2_cmd_processor/sport_ctrl.py -> /home/ros2/ws/install/go2_cmd_processor/lib/python3.10/site-packages/go2_cmd_processor
+copying /home/ros2/ws/build/go2_cmd_processor/build/lib/go2_cmd_processor/__init__.py -> /home/ros2/ws/install/go2_cmd_processor/lib/python3.10/site-packages/go2_cmd_processor
+byte-compiling /home/ros2/ws/install/go2_cmd_processor/lib/python3.10/site-packages/go2_cmd_processor/sport_ctrl.py to sport_ctrl.cpython-310.pyc
+byte-compiling /home/ros2/ws/install/go2_cmd_processor/lib/python3.10/site-packages/go2_cmd_processor/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/ros2/ws/install/go2_cmd_processor/share/ament_index
+creating /home/ros2/ws/install/go2_cmd_processor/share/ament_index/resource_index
+creating /home/ros2/ws/install/go2_cmd_processor/share/ament_index/resource_index/packages
+copying resource/go2_cmd_processor -> /home/ros2/ws/install/go2_cmd_processor/share/ament_index/resource_index/packages
+copying package.xml -> /home/ros2/ws/install/go2_cmd_processor/share/go2_cmd_processor
+running install_egg_info
+Copying ../../build/go2_cmd_processor/go2_cmd_processor.egg-info to /home/ros2/ws/install/go2_cmd_processor/lib/python3.10/site-packages/go2_cmd_processor-0.0.0-py3.10.egg-info
+running install_scripts
+Installing sport_ctrl script to /home/ros2/ws/install/go2_cmd_processor/lib/go2_cmd_processor
+writing list of installed files to '/home/ros2/ws/build/go2_cmd_processor/install.log'
